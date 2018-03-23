@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>4cd47572-bba7-4e38-8f38-5a525242ee72</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>484ef805-a8ea-48be-965f-8ca852db4a57</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h" />
+    <ClInclude Include="Troll.h" />
+    <ClInclude Include="Gameboard.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="States.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionBox.h" />
+    <ClInclude Include="Pickup.h" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="TextWriter.h" />
+    <ClInclude Include="GameOver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="Troll.cpp" />
+    <ClCompile Include="Gameboard.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="CollisionBox.cpp" />
+    <ClCompile Include="Pickup.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="TextWriter.cpp" />
+    <ClCompile Include="GameOver.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\PlayerIdleStance.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\PlayerWalkSide.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\TileEmpty.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\TilePlatform.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\TrollWalkSide.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\..\..\Pickup.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="E:\Pictures\Silly images\Work things\pickup.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Assets\LevelOne.csv">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\italic.spritefont">
+      <Filter>Assets</Filter>
+    </None>
+  </ItemGroup>
+</Project>
